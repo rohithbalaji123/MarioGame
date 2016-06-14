@@ -1,0 +1,59 @@
+body {
+	background-image: url("mariostart.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+button {
+	display: inline-block;
+	height: 50px;
+	width: 150px;
+	text-align: center;
+	margin: 5px 3px;
+	position: fixed;
+	top: 450px;
+	left: 40%;
+	margin: 0px 50px 0px 20px;
+	border-radius: 5px;
+	background-color: #F44336;
+	border: 0;
+	color: white;
+	box-shadow: 3px 3px 3px #607D8B;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#rules {
+	display: inline-block;
+	height: 50px;
+	width: 150px;
+	text-align: center;
+	margin: 5px 3px;
+	position: fixed;
+	top: 450px;
+	left: 55%;
+	margin: 0px 50px 0px 20px;
+	border-radius: 5px;
+	background-color: #F44336;
+	border: 0;
+	color: white;
+	box-shadow: 3px 3px 3px #607D8B;
+	font-weight: bold;
+	font-size: 15px;
+}
+#rulesformat {
+	display: none;
+	height: 150px;
+	width: 300px;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 7px 7px 7px #607D8B;
+	position: relative;
+	left: 55%;
+	top: 500px;
+	background-color: #3F51B5;
+	margin: 10px 20px 0px 0px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}

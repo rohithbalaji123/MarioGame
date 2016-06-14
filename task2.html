@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Game</title>
+		<link type="text/css" rel="stylesheet" href="task2css.css"></link>
+	</head>
+	<body onload="init()">
+		<embed src="bgm.mp3" autostart="true" loop="true" hidden="true"></embed>
+		<button class="reset" onclick="reset()">Reset</button>
+		<button class="reset" onclick="pause()">Pause</button>
+		<button class="reset" onclick="resume()">Resume</button>
+		<div class = "scorediv">
+			<p>Score:</p>
+			<p id="score">0</p>
+		</div>
+		<div class = "scorediv">
+			<p>High Score:</p>
+			<p id="highScore">0</p>
+		</div>
+		<canvas id="myCanvas" width="1880" height="848">
+		</canvas>
+		<script type="text/javascript" src="task2js.js"></script>
+	</body>

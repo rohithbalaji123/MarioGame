@@ -1,0 +1,39 @@
+.scorediv {
+	height: 80px;
+	width: 250px;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 7px 7px 7px #607D8B;
+	display: inline-block;
+	position: relative;
+	left: 35%;
+	top: 0px;
+	background-color: #3F51B5;
+	margin: 0px 20px 0px 0px;
+	color: white;
+	font-weight: bold;
+	font-family: cursive;
+}
+
+.reset {
+	display: inline-block;
+	height: 40px;
+	width: 100px;
+	text-align: center;
+	margin: 0px 3px;
+	position: relative;
+	top: -35px;
+	left: 25%;
+	border-radius: 5px;
+	background-color: #3F51B5;
+	border: 0;
+	color: white;
+	box-shadow: 3px 3px 3px #607D8B;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#myCanvas {
+	top: 0px;
+	position: relative;
+}
