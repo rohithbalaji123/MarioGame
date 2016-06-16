@@ -123,6 +123,7 @@ var con = can.getContext('2d');
 	}
 
 	function checkSpaceDown(e) {
+		e.preventDefault();
 		if( e.keyCode == 38 && down['38'] == null && down['40'] == null) {
 			down['38'] = true;
 			jump = setInterval(ydec,50);
@@ -139,6 +140,7 @@ var con = can.getContext('2d');
 
 	function checkup(e) {
 		if( e.keyCode == 40 && down['38'] == null) {
+			e.preventDefault();
 			y = y-h;
 			h = h*2;
 			down['40'] = null;
